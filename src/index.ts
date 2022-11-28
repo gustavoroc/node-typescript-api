@@ -1,3 +1,3 @@
-import "./util/module-alias";
+import './util/module-alias';
 
-console.log("teste");
+console.log('teste');
