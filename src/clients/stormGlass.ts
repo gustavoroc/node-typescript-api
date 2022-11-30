@@ -5,6 +5,7 @@ import * as HTTPUtil from '@src/util/request';
 export interface StormGlassPointSource {
   [key: string]: number;
 }
+
 export interface StormGlassPoint {
   readonly time: string;
   readonly waveDirection: StormGlassPointSource;
@@ -15,9 +16,11 @@ export interface StormGlassPoint {
   readonly windDirection: StormGlassPointSource;
   readonly windSpeed: StormGlassPointSource;
 }
+
 export interface StormGlassForecastResponse {
   hours: StormGlassPoint[];
 }
+
 export interface ForecastPoint {
   time: string;
   swellDirection: number;
